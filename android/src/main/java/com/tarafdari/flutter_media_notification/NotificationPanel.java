@@ -66,16 +66,16 @@ class NotificationPanel {
         view.setOnClickPendingIntent(R.id.toggle, pendingIntent);
 
 
-        Intent nextIntent = new Intent(parent, NotificationReturnSlot.class)
-                .setAction("next");
-        PendingIntent pendingNextIntent = PendingIntent.getBroadcast(parent, 0, nextIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-        view.setOnClickPendingIntent(R.id.next, pendingNextIntent);
+//        Intent nextIntent = new Intent(parent, NotificationReturnSlot.class)
+//                .setAction("next");
+//        PendingIntent pendingNextIntent = PendingIntent.getBroadcast(parent, 0, nextIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+//        view.setOnClickPendingIntent(R.id.next, pendingNextIntent);
 
 
-        Intent prevIntent = new Intent(parent, NotificationReturnSlot.class)
-                .setAction("prev");
-        PendingIntent pendingPrevIntent = PendingIntent.getBroadcast(parent, 0, prevIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-        view.setOnClickPendingIntent(R.id.prev, pendingPrevIntent);
+//        Intent prevIntent = new Intent(parent, NotificationReturnSlot.class)
+//                .setAction("prev");
+//        PendingIntent pendingPrevIntent = PendingIntent.getBroadcast(parent, 0, prevIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+//        view.setOnClickPendingIntent(R.id.prev, pendingPrevIntent);
 
 
         Intent selectIntent = new Intent(parent, NotificationReturnSlot.class)
